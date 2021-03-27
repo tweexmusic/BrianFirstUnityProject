@@ -7,7 +7,6 @@ public class FMODMusicArea1 : MonoBehaviour
     private static FMOD.Studio.EventInstance music;
 
     //Parameter constants that controls the event
-    //test
     public const string BATTLE_PARAMETER = "battle";
 
 
