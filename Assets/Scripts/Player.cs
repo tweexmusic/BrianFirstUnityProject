@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
     {
         playerHealth = playerHealth - enemyAttackDamage;
 
-        if(playerHealth > 0)
+        if (playerHealth > 0)
         {
             Debug.Log("Player takes " + enemyAttackDamage + " damage and has " + playerHealth + " health remaining!");
         }
