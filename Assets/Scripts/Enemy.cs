@@ -8,8 +8,8 @@ public class Enemy : MonoBehaviour
 {
     protected string enemyName;
     protected int enemyHealth = 20;
-    protected KeyCode keyInput;
     protected int attackValue;
+    protected KeyCode keyInput;
 
     //Constructor that defines enemy stats
     public Enemy()
@@ -50,9 +50,12 @@ public class Enemy : MonoBehaviour
         Debug.Log(enemyName + " deals " + damage + " damage to the player!");
     }
 
-    public int GetEnemyHealth()
+    /// <summary>
+    /// Returns current enemy's health value.
+    /// </summary>
+    public int GetEnemyHealth
     {
-        return enemyHealth;
+        get { return enemyHealth; }
     }
 
     void Update()

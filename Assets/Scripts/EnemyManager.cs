@@ -69,7 +69,7 @@ public class EnemyManager : MonoBehaviour
 
         foreach (Enemy enemy in enemiesList.ToArray())
         {
-            if (enemy.GetEnemyHealth() <= 0)
+            if (enemy.GetEnemyHealth <= 0)
             {
                 enemiesList.Remove(enemy);
                 Destroy(enemy.gameObject);
