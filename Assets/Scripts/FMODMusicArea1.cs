@@ -40,7 +40,7 @@ public class FMODMusicArea1 : MonoBehaviour
             music.setParameterByName(BATTLE_PARAMETER, (float)BattleMusicParameter.On);
         }
 
-        if(Player.instance.inBattle == false || EnemyManager.instance.enemiesAlive == false)
+        if (Player.instance.inBattle == false || EnemyManager.instance.enemiesAlive == false)
         {
             music.setParameterByName(BATTLE_PARAMETER, (float)BattleMusicParameter.Off);
         }
