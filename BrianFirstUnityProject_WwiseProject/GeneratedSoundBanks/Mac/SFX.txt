@@ -1,0 +1,28 @@
+Event	ID	Name			Wwise Object Path	Notes
+	347506884	GoombaAttack			\Default Work Unit\Enemies\Goomba\GoombaAttack	
+	1542000582	HammerBroAttack			\Default Work Unit\Enemies\HammerBro\HammerBroAttack	
+	1569728860	BobombAttack			\Default Work Unit\Enemies\Bobomb\BobombAttack	
+	1656947812	PlayerDeath			\Default Work Unit\PlayerActions\PlayerDeath	
+	2538918815	PlayerShoot			\Default Work Unit\PlayerActions\PlayerShoot	
+	3249137159	EnemyDeath			\Default Work Unit\Enemies\EnemyDeath	
+	3527090703	KoopaAttack			\Default Work Unit\Enemies\Koopa\KoopaAttack	
+	4008126242	PlayerJump			\Default Work Unit\PlayerActions\PlayerJump	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	71376833	Player Jump SFX 2	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Code\Unity\BrianFirstUnityProject\BrianFirstUnityProject_WwiseProject\.cache\Mac\SFX\jump2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Jump\Player Jump SFX 2		352976
+	81395247	Goomba Attack 1	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Code\Unity\BrianFirstUnityProject\BrianFirstUnityProject_WwiseProject\.cache\Mac\SFX\player_damage_acid1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Goomba\Goomba Attack\Goomba Attack 1		705792
+	182469666	Koopa Attack 3	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Code\Unity\BrianFirstUnityProject\BrianFirstUnityProject_WwiseProject\.cache\Mac\SFX\hamster_grapple_shoot3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Koopa\Koopa Attack\Koopa Attack 3		661692
+	190069741	Hammer Bro Attack 1	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Code\Unity\BrianFirstUnityProject\BrianFirstUnityProject_WwiseProject\.cache\Mac\SFX\enemy_shoot1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Hammer Bro\Hammer Bro Attack\Hammer Bro Attack 1		352992
+	317740802	Bobomb Attack 1	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Code\Unity\BrianFirstUnityProject\BrianFirstUnityProject_WwiseProject\.cache\Mac\SFX\hamster_explosion_fire1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bobomb\Bobomb Attack\Bobomb Attack 1		529408
+	339812499	Goomba Attack 2	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Code\Unity\BrianFirstUnityProject\BrianFirstUnityProject_WwiseProject\.cache\Mac\SFX\player_damage_acid2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Goomba\Goomba Attack\Goomba Attack 2		705792
+	532729908	Goomba Attack 3	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Code\Unity\BrianFirstUnityProject\BrianFirstUnityProject_WwiseProject\.cache\Mac\SFX\player_damage_acid3_1F46D20A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Goomba\Goomba Attack\Goomba Attack 3		265816
+	581470088	Hammer Bro Attack 2	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Code\Unity\BrianFirstUnityProject\BrianFirstUnityProject_WwiseProject\.cache\Mac\SFX\enemy_shoot2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Hammer Bro\Hammer Bro Attack\Hammer Bro Attack 2		352992
+	590969925	hamster_fire2	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Code\Unity\BrianFirstUnityProject\BrianFirstUnityProject_WwiseProject\.cache\Mac\SFX\hamster_fire2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Shoot\hamster_fire2		705792
+	653495671	Bobomb Attack 2	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Code\Unity\BrianFirstUnityProject\BrianFirstUnityProject_WwiseProject\.cache\Mac\SFX\hamster_explosion_fire2_FD382777.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Bobomb\Bobomb Attack\Bobomb Attack 2		253272
+	680175049	Player Jump SFX 1	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Code\Unity\BrianFirstUnityProject\BrianFirstUnityProject_WwiseProject\.cache\Mac\SFX\jump1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Jump\Player Jump SFX 1		352976
+	778960169	Enemy Death	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Code\Unity\BrianFirstUnityProject\BrianFirstUnityProject_WwiseProject\.cache\Mac\SFX\enemy_death_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemy Death		264792
+	796030084	Koopa Attack 1	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Code\Unity\BrianFirstUnityProject\BrianFirstUnityProject_WwiseProject\.cache\Mac\SFX\hamster_grapple_shoot1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Koopa\Koopa Attack\Koopa Attack 1		661692
+	928070246	Goomba Attack 4	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Code\Unity\BrianFirstUnityProject\BrianFirstUnityProject_WwiseProject\.cache\Mac\SFX\player_damage_acid4_6259E515.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Goomba\Goomba Attack\Goomba Attack 4		268896
+	986072658	Player Death	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Code\Unity\BrianFirstUnityProject\BrianFirstUnityProject_WwiseProject\.cache\Mac\SFX\player_death_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Death		529376
+	1018901268	hamster_fire1	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Code\Unity\BrianFirstUnityProject\BrianFirstUnityProject_WwiseProject\.cache\Mac\SFX\hamster_fire1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player Shoot\hamster_fire1		705792
+

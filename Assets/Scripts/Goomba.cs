@@ -19,6 +19,7 @@ public class Goomba : Enemy
     public override void EnemyAttack(int damage)
     {
         base.EnemyAttack(damage);
-        FMODOneShotPlayer.instance.PlayOneShotSound(FMODEventConstants.GOOMBA_ATTACK);
+        //FMODOneShotPlayer.instance.PlayOneShotSound(FMODEventConstants.GOOMBA_ATTACK);
+        WwiseEventPlayer.instance.PlayeWwiseEvent(WwiseEventConstants.GOOMBA_ATTACK);
     }
 }

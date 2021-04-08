@@ -35,7 +35,8 @@ public class Enemy : MonoBehaviour
         else
         {
             Debug.LogWarning(enemyName + " has been defeated!");
-            FMODOneShotPlayer.instance.PlayOneShotSound(FMODEventConstants.ENEMY_DEATH);
+            //FMODOneShotPlayer.instance.PlayOneShotSound(FMODEventConstants.ENEMY_DEATH);
+            WwiseEventPlayer.instance.PlayeWwiseEvent(WwiseEventConstants.ENEMY_DEATH);
         }
     }
 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{64EF9D07-50FF-4394-8794-E742B415B6AB}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{64EF9D07-50FF-4394-8794-E742B415B6AB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SFX" ID="{B809AAF7-1AC5-4CC0-8CB6-33751DD268CE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PlayerShoot" ID="{73AA8A1A-257B-405A-B761-273C20C17291}" WorkUnitID="{8D93AE7E-4490-4EE6-8D3B-45DBF3CA322F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BobombAttack" ID="{4C50667C-2991-4483-9DC3-283F695B0AA1}" WorkUnitID="{8D93AE7E-4490-4EE6-8D3B-45DBF3CA322F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="KoopaAttack" ID="{32BE91AC-E3B9-48A5-AA92-CAD9ED149BF6}" WorkUnitID="{8D93AE7E-4490-4EE6-8D3B-45DBF3CA322F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerJump" ID="{F0190DE2-9289-48CF-944E-2CBBCDC3B846}" WorkUnitID="{8D93AE7E-4490-4EE6-8D3B-45DBF3CA322F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="EnemyDeath" ID="{B6FC1DEE-21B3-4AF0-A228-60CD7BDF64EA}" WorkUnitID="{8D93AE7E-4490-4EE6-8D3B-45DBF3CA322F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GoombaAttack" ID="{3C69370E-7912-4B7B-B52A-5C66959D8070}" WorkUnitID="{8D93AE7E-4490-4EE6-8D3B-45DBF3CA322F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayerDeath" ID="{9A9D76C7-6863-4CFF-850D-9C817416BD8B}" WorkUnitID="{8D93AE7E-4490-4EE6-8D3B-45DBF3CA322F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="HammerBroAttack" ID="{10CE64F4-64AC-4EA0-A35A-415CEAB3E100}" WorkUnitID="{8D93AE7E-4490-4EE6-8D3B-45DBF3CA322F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{B4136F1F-C272-4938-8815-D6FF62D39514}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Area2MusicStart" ID="{1F535C67-0942-41DB-90BA-24668AA3742D}" WorkUnitID="{8D93AE7E-4490-4EE6-8D3B-45DBF3CA322F}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Area2MusicStop" ID="{8C3A3647-5190-4C3E-B57A-0D0E3BAC7B28}" WorkUnitID="{8D93AE7E-4490-4EE6-8D3B-45DBF3CA322F}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

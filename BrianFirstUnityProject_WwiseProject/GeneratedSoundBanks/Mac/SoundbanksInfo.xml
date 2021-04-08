@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/brianarnold/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Dropbox (Personal)/Brian/Production Files/Documents/Learning Code/Unity/BrianFirstUnityProject/BrianFirstUnityProject_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/brianarnold/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Dropbox (Personal)/Brian/Production Files/Documents/Learning Code/Unity/BrianFirstUnityProject/BrianFirstUnityProject_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/brianarnold/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Dropbox (Personal)/Brian/Production Files/Documents/Learning Code/Unity/BrianFirstUnityProject/BrianFirstUnityProject_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/brianarnold/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Dropbox (Personal)/Brian/Production Files/Documents/Learning Code/Unity/BrianFirstUnityProject/BrianFirstUnityProject_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="393239870" Language="SFX" Hash="2880065775">
+			<ObjectPath>\SoundBanks\Default Work Unit\SFX</ObjectPath>
+			<ShortName>SFX</ShortName>
+			<Path>SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1569728860" Name="BobombAttack" ObjectPath="\Events\Default Work Unit\Enemies\Bobomb\BobombAttack" DurationType="OneShot" DurationMin="2.247461" DurationMax="4.004519">
+					<IncludedMemoryFiles>
+						<File Id="317740802" Language="SFX">
+							<ShortName>hamster_explosion_fire1.wav</ShortName>
+							<Path>SFX/hamster_explosion_fire1_10C4C929.wem</Path>
+						</File>
+						<File Id="653495671" Language="SFX">
+							<ShortName>hamster_explosion_fire2.wav</ShortName>
+							<Path>SFX/hamster_explosion_fire2_FD382777.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3249137159" Name="EnemyDeath" ObjectPath="\Events\Default Work Unit\Enemies\EnemyDeath" DurationType="OneShot" DurationMin="1.650000" DurationMax="1.650000">
+					<IncludedMemoryFiles>
+						<File Id="778960169" Language="SFX">
+							<ShortName>enemy_death.wav</ShortName>
+							<Path>SFX/enemy_death_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="347506884" Name="GoombaAttack" ObjectPath="\Events\Default Work Unit\Enemies\Goomba\GoombaAttack" DurationType="OneShot" DurationMin="3.563595" DurationMax="4.489848">
+					<IncludedMemoryFiles>
+						<File Id="81395247" Language="SFX">
+							<ShortName>player_damage_acid1.wav</ShortName>
+							<Path>SFX/player_damage_acid1_10C4C929.wem</Path>
+						</File>
+						<File Id="339812499" Language="SFX">
+							<ShortName>player_damage_acid2.wav</ShortName>
+							<Path>SFX/player_damage_acid2_10C4C929.wem</Path>
+						</File>
+						<File Id="532729908" Language="SFX">
+							<ShortName>player_damage_acid3.wav</ShortName>
+							<Path>SFX/player_damage_acid3_1F46D20A.wem</Path>
+						</File>
+						<File Id="928070246" Language="SFX">
+							<ShortName>player_damage_acid4.wav</ShortName>
+							<Path>SFX/player_damage_acid4_6259E515.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1542000582" Name="HammerBroAttack" ObjectPath="\Events\Default Work Unit\Enemies\HammerBro\HammerBroAttack" DurationType="OneShot" DurationMin="1.781797" DurationMax="2.669680">
+					<IncludedMemoryFiles>
+						<File Id="190069741" Language="SFX">
+							<ShortName>enemy_shoot1.wav</ShortName>
+							<Path>SFX/enemy_shoot1_10C4C929.wem</Path>
+						</File>
+						<File Id="581470088" Language="SFX">
+							<ShortName>enemy_shoot2.wav</ShortName>
+							<Path>SFX/enemy_shoot2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3527090703" Name="KoopaAttack" ObjectPath="\Events\Default Work Unit\Enemies\Koopa\KoopaAttack" DurationType="OneShot" DurationMin="3.340870" DurationMax="4.209233">
+					<IncludedMemoryFiles>
+						<File Id="182469666" Language="SFX">
+							<ShortName>hamster_grapple_shoot3.wav</ShortName>
+							<Path>SFX/hamster_grapple_shoot3_10C4C929.wem</Path>
+						</File>
+						<File Id="796030084" Language="SFX">
+							<ShortName>hamster_grapple_shoot1.wav</ShortName>
+							<Path>SFX/hamster_grapple_shoot1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1656947812" Name="PlayerDeath" ObjectPath="\Events\Default Work Unit\PlayerActions\PlayerDeath" DurationType="OneShot" DurationMin="3.000000" DurationMax="3.000000">
+					<IncludedMemoryFiles>
+						<File Id="986072658" Language="SFX">
+							<ShortName>player_death.wav</ShortName>
+							<Path>SFX/player_death_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4008126242" Name="PlayerJump" ObjectPath="\Events\Default Work Unit\PlayerActions\PlayerJump" DurationType="OneShot" DurationMin="1.781797" DurationMax="2.244924">
+					<IncludedMemoryFiles>
+						<File Id="71376833" Language="SFX">
+							<ShortName>jump2.wav</ShortName>
+							<Path>SFX/jump2_10C4C929.wem</Path>
+						</File>
+						<File Id="680175049" Language="SFX">
+							<ShortName>jump1.wav</ShortName>
+							<Path>SFX/jump1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2538918815" Name="PlayerShoot" ObjectPath="\Events\Default Work Unit\PlayerActions\PlayerShoot" DurationType="OneShot" DurationMin="3.563595" DurationMax="4.489848">
+					<IncludedMemoryFiles>
+						<File Id="590969925" Language="SFX">
+							<ShortName>hamster_fire2.wav</ShortName>
+							<Path>SFX/hamster_fire2_10C4C929.wem</Path>
+						</File>
+						<File Id="1018901268" Language="SFX">
+							<ShortName>hamster_fire1.wav</ShortName>
+							<Path>SFX/hamster_fire1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="2603575796">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4106869035" Name="Area2MusicStart" ObjectPath="\Events\Default Work Unit\Music\Area 2 Music\Area2MusicStart" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1072076252" Language="SFX">
+							<ShortName>area_2_music_95BPM.wav</ShortName>
+							<Path>SFX/area_2_music_95BPM_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3940010313" Name="Area2MusicStop" ObjectPath="\Events\Default Work Unit\Music\Area 2 Music\Area2MusicStop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

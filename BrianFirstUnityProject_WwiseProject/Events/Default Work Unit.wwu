@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8D93AE7E-4490-4EE6-8D3B-45DBF3CA322F}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{8D93AE7E-4490-4EE6-8D3B-45DBF3CA322F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="PlayerActions" ID="{62EFF16C-7BD1-486B-A527-D0223DE65505}" ShortID="789416642">
+					<ChildrenList>
+						<Event Name="PlayerJump" ID="{F0190DE2-9289-48CF-944E-2CBBCDC3B846}">
+							<ChildrenList>
+								<Action Name="" ID="{52751469-9CBC-4461-9B68-6DFF6889A4DB}" ShortID="107374170">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player Jump SFX 1" ID="{6234FE30-0895-4728-A8A2-C893545CE388}" WorkUnitID="{40E90DFA-B07C-4819-AB7F-F4B6FF59C582}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DFAAD00D-A830-475D-BC93-AD7A9DF9EC4C}" ShortID="736581204">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player Jump SFX 2" ID="{DAA2C40C-5CBD-4499-ABF2-CFCBF71A4EBD}" WorkUnitID="{40E90DFA-B07C-4819-AB7F-F4B6FF59C582}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerShoot" ID="{73AA8A1A-257B-405A-B761-273C20C17291}">
+							<ChildrenList>
+								<Action Name="" ID="{A732FA1E-7DBF-4724-9A32-DECC2A8EFC9E}" ShortID="117072386">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="hamster_fire1" ID="{FED20DCE-9EA9-4CB7-A06F-C46ED9200CAC}" WorkUnitID="{40E90DFA-B07C-4819-AB7F-F4B6FF59C582}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9C192E38-C3B0-4D27-94C9-B1A06CE63BB3}" ShortID="652851621">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="hamster_fire2" ID="{FBA7D2D0-7B61-4DEF-BF65-6CF2AB35713A}" WorkUnitID="{40E90DFA-B07C-4819-AB7F-F4B6FF59C582}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="PlayerDeath" ID="{9A9D76C7-6863-4CFF-850D-9C817416BD8B}">
+							<ChildrenList>
+								<Action Name="" ID="{1E1DA227-9A82-452F-A230-285E3E9C6F9C}" ShortID="349038220">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player Death" ID="{2D878216-2B07-4E70-971B-841291FB71B2}" WorkUnitID="{40E90DFA-B07C-4819-AB7F-F4B6FF59C582}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{1109C786-0495-4BFA-ADF1-4EC8B5ED2D9D}" ShortID="1072001369">
+					<ChildrenList>
+						<Folder Name="Area 2 Music" ID="{94CABE32-BD60-4A09-8DE8-F0D527447DDA}" ShortID="138220545">
+							<ChildrenList>
+								<Event Name="Area2MusicStart" ID="{1F535C67-0942-41DB-90BA-24668AA3742D}">
+									<ChildrenList>
+										<Action Name="" ID="{B6EE7CDC-81F6-4DAA-A87A-9672BC7B8510}" ShortID="990842605">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Area 2 Music" ID="{ADF7AF8E-9E48-4B7D-80E9-52E08049B5C4}" WorkUnitID="{73BB02FA-706A-4129-932D-00BA4EAC4C92}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Area2MusicStop" ID="{8C3A3647-5190-4C3E-B57A-0D0E3BAC7B28}">
+									<ChildrenList>
+										<Action Name="" ID="{1160614C-2DE3-422B-B60B-8D4A673C615D}" ShortID="755811523">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="3"/>
+												<Property Name="Scope" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Area 2 Music" ID="{ADF7AF8E-9E48-4B7D-80E9-52E08049B5C4}" WorkUnitID="{73BB02FA-706A-4129-932D-00BA4EAC4C92}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Enemies" ID="{C9613556-516F-450F-AD20-B11A3E5FBD92}" ShortID="198797985">
+					<ChildrenList>
+						<Folder Name="Goomba" ID="{1C39380A-BFB9-4A2C-B76A-AC2C0D149880}" ShortID="589734718">
+							<ChildrenList>
+								<Event Name="GoombaAttack" ID="{3C69370E-7912-4B7B-B52A-5C66959D8070}">
+									<ChildrenList>
+										<Action Name="" ID="{AA060AE0-4442-443C-94FB-7A69583713E9}" ShortID="258614575">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Goomba Attack 1" ID="{CDC66CD7-6032-41C9-B25F-B9A2881FE068}" WorkUnitID="{40E90DFA-B07C-4819-AB7F-F4B6FF59C582}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{6807FB41-E05A-4F71-B737-4BC2678E5C25}" ShortID="156687795">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Goomba Attack 2" ID="{56F71E4A-C12C-482C-83CF-2671EDE449F5}" WorkUnitID="{40E90DFA-B07C-4819-AB7F-F4B6FF59C582}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{9626C9BC-61F5-4C79-A00B-5999359324C5}" ShortID="638205338">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Goomba Attack 3" ID="{9D82637A-197A-4980-9F13-1BF3A8C56194}" WorkUnitID="{40E90DFA-B07C-4819-AB7F-F4B6FF59C582}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{EB747BD4-1642-48DF-B6D4-256A915E8D04}" ShortID="167706043">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Goomba Attack 4" ID="{28CF7F56-67A9-434B-ABFA-3B9A27EA20D7}" WorkUnitID="{40E90DFA-B07C-4819-AB7F-F4B6FF59C582}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Koopa" ID="{6BE51E5D-B33D-45AD-9281-66DF31C79D77}" ShortID="586035747">
+							<ChildrenList>
+								<Event Name="KoopaAttack" ID="{32BE91AC-E3B9-48A5-AA92-CAD9ED149BF6}">
+									<ChildrenList>
+										<Action Name="" ID="{7011F409-E43F-4711-A560-86D2A4E4E130}" ShortID="458956534">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Koopa Attack 1" ID="{6A9C7BF1-5534-4DA0-83A0-CE6A5D2202F1}" WorkUnitID="{40E90DFA-B07C-4819-AB7F-F4B6FF59C582}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{1700C792-E623-4A78-AFF5-9AFBE9655DAF}" ShortID="675031470">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Koopa Attack 3" ID="{F093029A-CE1B-4E50-923F-B84BA685D080}" WorkUnitID="{40E90DFA-B07C-4819-AB7F-F4B6FF59C582}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Bobomb" ID="{07A716D7-B78A-446B-8855-66271FC1AF58}" ShortID="231116154">
+							<ChildrenList>
+								<Event Name="BobombAttack" ID="{4C50667C-2991-4483-9DC3-283F695B0AA1}">
+									<ChildrenList>
+										<Action Name="" ID="{485F994E-DD58-424D-AA33-606467B305AF}" ShortID="929702514">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Bobomb Attack 1" ID="{F062051F-A7DE-4397-A68E-6A0BCAE0DEE4}" WorkUnitID="{40E90DFA-B07C-4819-AB7F-F4B6FF59C582}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{7E1C4499-5AA2-4077-BCAD-52B6753F3CE4}" ShortID="240364012">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Bobomb Attack 2" ID="{079AED74-9745-4A3E-BD10-94B3B1689CFF}" WorkUnitID="{40E90DFA-B07C-4819-AB7F-F4B6FF59C582}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="HammerBro" ID="{8DB1AD0C-1392-4C3E-AD84-62405B3822A2}" ShortID="511249580">
+							<ChildrenList>
+								<Event Name="HammerBroAttack" ID="{10CE64F4-64AC-4EA0-A35A-415CEAB3E100}">
+									<ChildrenList>
+										<Action Name="" ID="{C3B0EA93-3A0C-49ED-A609-C669456E9C5D}" ShortID="163671927">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Hammer Bro Attack 1" ID="{86A9A3C7-CC95-45FB-991A-EAF69B04BB29}" WorkUnitID="{40E90DFA-B07C-4819-AB7F-F4B6FF59C582}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{426A1EB8-38BC-429A-9180-9D375FC91C1E}" ShortID="865469738">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Hammer Bro Attack 2" ID="{5CD7DD8E-3BD5-4C88-BF08-76BCCC862774}" WorkUnitID="{40E90DFA-B07C-4819-AB7F-F4B6FF59C582}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="EnemyDeath" ID="{B6FC1DEE-21B3-4AF0-A228-60CD7BDF64EA}">
+							<ChildrenList>
+								<Action Name="" ID="{9A6EE120-6977-4AA5-981A-279B08FB8A1F}" ShortID="816173044">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.15"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Enemy Death" ID="{17A76409-742C-4DD8-8DC4-0B71E38EA10A}" WorkUnitID="{40E90DFA-B07C-4819-AB7F-F4B6FF59C582}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

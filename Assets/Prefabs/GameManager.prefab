@@ -49,3 +49,5 @@ MonoBehaviour:
     type: 3}
   fmodOneShotPlayerPrefab: {fileID: 4440360410325993088, guid: 585a57e1b16994b619e0094f7266e79f,
     type: 3}
+  wwiseOneShotPlayerPrefab: {fileID: 3644750802394083976, guid: 5ae5eaba448af4e1cabdced9554d562d,
+    type: 3}

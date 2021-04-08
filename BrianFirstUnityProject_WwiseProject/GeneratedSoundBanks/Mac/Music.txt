@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3940010313	Area2MusicStop			\Default Work Unit\Music\Area 2 Music\Area2MusicStop	
+	4106869035	Area2MusicStart			\Default Work Unit\Music\Area 2 Music\Area2MusicStart	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1072076252	area_2_music_95BPM	Y:\Dropbox (Personal)\Brian\Production Files\Documents\Learning Code\Unity\BrianFirstUnityProject\BrianFirstUnityProject_WwiseProject\.cache\Mac\SFX\area_2_music_95BPM_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Area 2 Music\Area 2 Music Intro\area_2_music_95BPM		56151048
+

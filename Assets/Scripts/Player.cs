@@ -26,7 +26,8 @@ public class Player : MonoBehaviour
 
         if (playerHealth <= 0)
         {
-            FMODOneShotPlayer.instance.PlayOneShotSound(FMODEventConstants.PLAYER_DEATH);
+            //FMODOneShotPlayer.instance.PlayOneShotSound(FMODEventConstants.PLAYER_DEATH);
+            WwiseEventPlayer.instance.PlayeWwiseEvent(WwiseEventConstants.PLAYER_DEATH);
             Debug.LogError("Player takes " + enemyAttackDamage + " damage and dies!");
             inBattle = false;
         }
@@ -46,10 +47,16 @@ public class Player : MonoBehaviour
         playerHealth = 300;
     }
 
+    public void PlayerJump()
+    {
+        WwiseEventPlayer.instance.PlayeWwiseEvent(WwiseEventConstants.PLAYER_JUMP);
+    }
+
     //Handles player's shoot attack. Attack value is set when calling this function and that value is passed as parameter to EnemyTakeDamage()
     public void PlayerAttackShoot(int damage)
     {
-        FMODOneShotPlayer.instance.PlayOneShotSound(FMODEventConstants.PLAYER_SHOOT);
+        //FMODOneShotPlayer.instance.PlayOneShotSound(FMODEventConstants.PLAYER_SHOOT);
+        WwiseEventPlayer.instance.PlayeWwiseEvent(WwiseEventConstants.PLAYER_SHOOT);
         EnemyManager.instance.EnemyTakeDamageGlobal(damage);
     }
 
@@ -59,6 +66,11 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.A) && playerHealth > 0)
         {
             PlayerAttackShoot(6);
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space) && playerHealth > 0)
+        {
+            PlayerJump();
         }
     }
 }

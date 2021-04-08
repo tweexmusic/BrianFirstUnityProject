@@ -1,0 +1,851 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{40E90DFA-B07C-4819-AB7F-F4B6FF59C582}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{40E90DFA-B07C-4819-AB7F-F4B6FF59C582}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Player" ID="{2811D8ED-E0C5-4CC9-937E-05D1206A8909}" ShortID="775703152">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Player Jump" ID="{AD32EFA2-2890-4123-BFBD-8E149AF62F64}" ShortID="970112695">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Player Jump SFX 2" ID="{DAA2C40C-5CBD-4499-ABF2-CFCBF71A4EBD}" ShortID="777696636">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5E30865B-8E97-4908-801A-1CBE4B6CE396}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="jump2" ID="{E3C0A740-5038-4A4A-91E6-F8E14B5BB199}">
+											<Language>SFX</Language>
+											<AudioFile>jump2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="71376833"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="jump2" ID="{E3C0A740-5038-4A4A-91E6-F8E14B5BB199}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Player Jump SFX 1" ID="{6234FE30-0895-4728-A8A2-C893545CE388}" ShortID="271686666">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2C931811-E5D5-47B1-A7D9-DEC3677C2263}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="jump1" ID="{3E7B997F-810F-4D1F-A3AB-220779C99B22}">
+											<Language>SFX</Language>
+											<AudioFile>jump1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="680175049"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="jump1" ID="{3E7B997F-810F-4D1F-A3AB-220779C99B22}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="Player Shoot" ID="{C6F7024F-6087-46B9-9AE9-20726ADACDAF}" ShortID="102974640">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="hamster_fire1" ID="{FED20DCE-9EA9-4CB7-A06F-C46ED9200CAC}" ShortID="258115644">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E6678B1B-D178-4E96-B807-B7763F5D161A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hamster_fire1" ID="{FA460375-2D3C-40AE-9EE9-4F39F7F0F33F}">
+											<Language>SFX</Language>
+											<AudioFile>hamster_fire1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1018901268"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="hamster_fire1" ID="{FA460375-2D3C-40AE-9EE9-4F39F7F0F33F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="hamster_fire2" ID="{FBA7D2D0-7B61-4DEF-BF65-6CF2AB35713A}" ShortID="427966477">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{44BAF787-4289-463E-8ABE-FA73EEB398A6}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="hamster_fire2" ID="{B5CC86F1-7A4C-4FFE-B7FF-5568D0D2ABFE}">
+											<Language>SFX</Language>
+											<AudioFile>hamster_fire2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="590969925"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="hamster_fire2" ID="{B5CC86F1-7A4C-4FFE-B7FF-5568D0D2ABFE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+						<Sound Name="Player Death" ID="{2D878216-2B07-4E70-971B-841291FB71B2}" ShortID="438695353">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="player_death" ID="{D029F73A-8E73-447E-9637-63145B2F5601}">
+									<Language>SFX</Language>
+									<AudioFile>player_death.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="986072658"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="player_death" ID="{D029F73A-8E73-447E-9637-63145B2F5601}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="Enemies" ID="{2DE6AF52-0A68-4EFD-876A-EA3792A0ADFC}" ShortID="286036484">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Goomba" ID="{75EB89F4-0D5E-4949-A9C9-5A1D5CE6A291}" ShortID="448709989">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ActorMixer Name="Goomba Attack" ID="{E2CE1361-3F0F-4F2D-90C7-CBCCACDC7C00}" ShortID="913374520">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Goomba Attack 1" ID="{CDC66CD7-6032-41C9-B25F-B9A2881FE068}" ShortID="36797898">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D51F08A8-C82C-47CF-99BE-BED34427B862}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="player_damage_acid1" ID="{FC503EB9-AE40-4491-9131-7F0497C04E4E}">
+													<Language>SFX</Language>
+													<AudioFile>player_damage_acid1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="81395247"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="player_damage_acid1" ID="{FC503EB9-AE40-4491-9131-7F0497C04E4E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Goomba Attack 2" ID="{56F71E4A-C12C-482C-83CF-2671EDE449F5}" ShortID="257027163">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8A913016-C9E4-4BE0-AC93-75A64216C3F3}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="player_damage_acid2" ID="{DD50117B-F2B6-4C1B-8BBE-5E259D83F132}">
+													<Language>SFX</Language>
+													<AudioFile>player_damage_acid2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="339812499"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="player_damage_acid2" ID="{DD50117B-F2B6-4C1B-8BBE-5E259D83F132}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Goomba Attack 3" ID="{9D82637A-197A-4980-9F13-1BF3A8C56194}" ShortID="276831956">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{29E0EDF2-E422-4F04-A6D2-D25F939111E2}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="player_damage_acid3" ID="{B2D3AA6A-DDD9-44D4-A273-DDD98D510841}">
+													<PropertyList>
+														<Property Name="FadeInShape" Type="int16" Value="4"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.34883720930233"/>
+														<Property Name="FadeOutShape" Type="int16" Value="1"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.50581395348837"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>player_damage_acid3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="532729908"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="player_damage_acid3" ID="{B2D3AA6A-DDD9-44D4-A273-DDD98D510841}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Goomba Attack 4" ID="{28CF7F56-67A9-434B-ABFA-3B9A27EA20D7}" ShortID="221323499">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5AAA1008-4590-4C41-8907-8877FFB24D90}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="player_damage_acid4" ID="{5F9BBCE3-DB80-4077-B4FD-96AAB6BDF494}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.45348837209302"/>
+														<Property Name="FadeOutShape" Type="int16" Value="1"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.52325581395349"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>player_damage_acid4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="928070246"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="player_damage_acid4" ID="{5F9BBCE3-DB80-4077-B4FD-96AAB6BDF494}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="Koopa" ID="{98069883-5EEB-46F9-98E5-4E29A13EBDAF}" ShortID="569112367">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ActorMixer Name="Koopa Attack" ID="{6DD0A1F8-1ECD-41A6-9EBF-11D4C665508D}" ShortID="27718979">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Koopa Attack 1" ID="{6A9C7BF1-5534-4DA0-83A0-CE6A5D2202F1}" ShortID="475113861">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{DD014B8A-6B35-453E-8AA9-48E2BFE99989}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="hamster_grapple_shoot1" ID="{23DE77D7-EC3C-4091-9AAC-DD9B3ECAFA6D}">
+													<Language>SFX</Language>
+													<AudioFile>hamster_grapple_shoot1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="796030084"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="hamster_grapple_shoot1" ID="{23DE77D7-EC3C-4091-9AAC-DD9B3ECAFA6D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Koopa Attack 2" ID="{E4BCD4DC-8949-48AD-AA0B-91D4789B5829}" ShortID="995300873">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{EC60DDCA-A7E9-4159-AEF0-6C34D5EC76EF}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="hamster_grapple_shoot2" ID="{7AABDAE5-A377-432F-8B78-3EF6EF114F89}">
+													<Language>SFX</Language>
+													<AudioFile>hamster_grapple_shoot2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="820491560"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="hamster_grapple_shoot2" ID="{7AABDAE5-A377-432F-8B78-3EF6EF114F89}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Koopa Attack 3" ID="{F093029A-CE1B-4E50-923F-B84BA685D080}" ShortID="574815937">
+											<PropertyList>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{339A0720-C0F2-4207-A17A-BE105D9F7FB5}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="SpeakerPanning" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="hamster_grapple_shoot3" ID="{4D1E6FD7-BFB9-4877-88C5-5B70225FD2A3}">
+													<Language>SFX</Language>
+													<AudioFile>hamster_grapple_shoot3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="182469666"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Panner Name="" ID="{94E9AD75-6D36-47FF-BE6F-687AB0276BA2}">
+													<PropertyList>
+														<Property Name="PanX" Type="Real64" Value="30.6595365418894"/>
+													</PropertyList>
+												</Panner>
+											</PositioningInfo>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="hamster_grapple_shoot3" ID="{4D1E6FD7-BFB9-4877-88C5-5B70225FD2A3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="Bobomb" ID="{75A3DDE1-8B88-41EA-A67C-54D1C2D24639}" ShortID="1006987210">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ActorMixer Name="Bobomb Attack" ID="{157C8321-379C-473C-A176-EC0802F92E90}" ShortID="880865498">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Bobomb Attack 1" ID="{F062051F-A7DE-4397-A68E-6A0BCAE0DEE4}" ShortID="542814775">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{83365B75-32CA-4E6E-B830-F579D7326B25}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="500"/>
+																	<Property Name="Min" Type="Real64" Value="-500"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="hamster_explosion_fire1" ID="{2B9F9DC6-32B0-48CD-BA82-4881D27CF290}">
+													<Language>SFX</Language>
+													<AudioFile>hamster_explosion_fire1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="317740802"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="hamster_explosion_fire1" ID="{2B9F9DC6-32B0-48CD-BA82-4881D27CF290}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Bobomb Attack 2" ID="{079AED74-9745-4A3E-BD10-94B3B1689CFF}" ShortID="707994372">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{EC34AFA3-4919-4379-A2AB-E32FDF711988}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="500"/>
+																	<Property Name="Min" Type="Real64" Value="-500"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="hamster_explosion_fire2" ID="{AC3EA214-B876-4CBB-9708-07B1422215CD}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.11191860465116"/>
+														<Property Name="FadeOutShape" Type="int16" Value="1"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.43459302325581"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>hamster_explosion_fire2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="653495671"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="hamster_explosion_fire2" ID="{AC3EA214-B876-4CBB-9708-07B1422215CD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="Hammer Bro" ID="{A200E346-7CB4-42B8-B4FD-FD8FBA341729}" ShortID="592907506">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<ActorMixer Name="Hammer Bro Attack" ID="{1145FB68-920F-4E5F-B7D1-B812A719AFB6}" ShortID="424486183">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Hammer Bro Attack 1" ID="{86A9A3C7-CC95-45FB-991A-EAF69B04BB29}" ShortID="586051100">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{53593D60-877A-4C57-B2EF-CB89A4332B4D}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="enemy_shoot1" ID="{AE3FD8D3-6A78-4F0C-BEDD-008037CD84DA}">
+													<Language>SFX</Language>
+													<AudioFile>enemy_shoot1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="190069741"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="enemy_shoot1" ID="{AE3FD8D3-6A78-4F0C-BEDD-008037CD84DA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hammer Bro Attack 2" ID="{5CD7DD8E-3BD5-4C88-BF08-76BCCC862774}" ShortID="525178161">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D8EBCB21-C664-47F0-A3B9-51C2AA88FAB0}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="500"/>
+																	<Property Name="Min" Type="Real64" Value="-500"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="enemy_shoot2" ID="{CB31420E-6BDE-4168-A41C-AE1C8ED24ED0}">
+													<Language>SFX</Language>
+													<AudioFile>enemy_shoot2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="581470088"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="enemy_shoot2" ID="{CB31420E-6BDE-4168-A41C-AE1C8ED24ED0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+						<Sound Name="Enemy Death" ID="{17A76409-742C-4DD8-8DC4-0B71E38EA10A}" ShortID="333656304">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{A2F2197D-3600-4A26-BB1E-1FDC62766A62}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DE757232-E213-4998-BBBF-2FBFC092210B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="enemy_death" ID="{971FC70D-A7B3-47BC-AF04-AE54A9E71FB2}">
+									<Language>SFX</Language>
+									<AudioFile>enemy_death.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="778960169"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="enemy_death" ID="{971FC70D-A7B3-47BC-AF04-AE54A9E71FB2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

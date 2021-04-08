@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 {
     public EnemyManager enemyManagerPrefab;
     public Player playerPrefab;
-    public FMODOneShotPlayer fmodOneShotPlayerPrefab;
+    public WwiseEventPlayer wwiseOneShotPlayerPrefab;
 
 
     private void Awake()
@@ -25,9 +25,9 @@ public class GameManager : MonoBehaviour
             Instantiate(enemyManagerPrefab);
         }
 
-        if (FMODOneShotPlayer.instance == null)
+        if (WwiseEventPlayer.instance == null)
         {
-            Instantiate(fmodOneShotPlayerPrefab);
+            Instantiate(wwiseOneShotPlayerPrefab);
         }
     }
 
@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         Debug.LogWarning("PRESS 'A' TO ATTACK WITH PLAYER!");
+        Debug.LogWarning("PRESS SPACEBAR TO JUMP WITH PLAYER");
         Debug.LogWarning("PRESS 'B' TO ATTACK WITH BOBOMB!");
         Debug.LogWarning("PRESS 'K' TO ATTACK WITH KOOPA!");
         Debug.LogWarning("PRESS 'G' TO ATTACK WITH GOOMBA!");
