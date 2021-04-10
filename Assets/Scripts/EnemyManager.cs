@@ -67,12 +67,13 @@ public class EnemyManager : MonoBehaviour
             enemiesList[Random.Range(0, enemiesList.Count)].EnemeyTakeDamage(damage);
         }
 
-        foreach (Enemy enemy in enemiesList.ToArray())
+
+        for (int i = enemiesList.Count -1; i >= 0; i--)
         {
-            if (enemy.GetEnemyHealth <= 0)
+            if (enemiesList[i].GetEnemyHealth <= 0)
             {
-                enemiesList.Remove(enemy);
-                Destroy(enemy.gameObject);
+                Destroy(enemiesList[i].gameObject);
+                enemiesList.Remove(enemiesList[i]);
             }
 
             if (enemiesList.Count == 0)
